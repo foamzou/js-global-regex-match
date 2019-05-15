@@ -1,0 +1,23 @@
+{
+  "name": "global-regex-match",
+  "version": "1.0.0",
+  "description": "global match groups with a regex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshizoufeng/js-util.git"
+  },
+  "keywords": [
+    "regex",
+    "global match"
+  ],
+  "author": "foamzou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshizoufeng/js-util/issues"
+  },
+  "homepage": "https://github.com/woshizoufeng/js-util#readme"
+}
