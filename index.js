@@ -3,7 +3,8 @@ module.exports = (content, regex) => {
     let responseList = [];
     let match;
     while (match = reg.exec(content)) {
-        responseList.push(match[1]);
+        let item = match.length > 2 ? match.slice(-`${match.length-1}`) : match[1];
+        responseList.push(item);
     }
     return responseList;
 }
